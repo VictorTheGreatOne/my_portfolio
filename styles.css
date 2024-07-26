@@ -1,153 +1,213 @@
 ul {
-    display:flex;
-    justify-content:flex-end;
-    
-}
-li {
-    margin:20px;
-
-}
-ul {
-    list-style: none;
-}
-img {
-    width:50px;
-    display:flex;
-    
-
-    
-
-    
-    
-
-}
-
-    a:link {
-        text-decoration: none;
+    display: flex;
+    padding-left: 1100px;
+    justify-content: end;
+    list-style-type: flex-end;
     }
- 
-.logo{
-    position: absolute; left: 60px; top: 10px;
-}
-h1 {
-display: flex;
-justify-content: center;
-margin-bottom: 40px;
 
-
-
-}
-p {
-   padding-right: 50px;
-   margin-bottom: 40px;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}    
+#logo{
+    width: 70px;
 }
 
+a {
+    margin: 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+#hero_container {
+    display: flex;
+    justify-content: center;
+    margin-right: 115px;
+}
 
 button {
-    background-color:red ;
+    background-color: red;
     color: white;
     border: none;
     padding: 10px;
 }
-#profile {
+
+#Profile {
     width: 243px;
     height: 243px;
     border-radius: 50%;
-    position:absolute; right: 60px;
 }
-#description {
+
+#Description {
+    width: 497px;
+    margin-bottom: 71px;
     margin-right: 115px;
-    justify-content: center;
-}
-#hero_container {
- justify-content: space-around;   
-} 
-
-
-
-#design {
-   
-    margin-right: 20px;
-    padding: 25px;
-    border-radius: -20px;
-    background-color: aquamarine;
-    color: skyblue;
-}
-#pixel {
-    
-    background-color: aquamarine;
-    padding: 25px;
-    border-radius: -20px;
-}
-/* h3 {
-    padding-left: 60px;
-}
-.flex-container {
-    display: flex;
-    justify-content:  space-around;
-    
-} */
-
-#post-heading {
-    display: flex;
-    align-items: center;
-}
-#view {
-    position:absolute; right: 90px;  top: 260px; 
-}
-#recent {
-    position:absolute; left: 90px;   
 }
 
-a {
-    color: aqua;
-}
-
-image width should be 246px all the titles should have h2 elements
-image on left 
-featured works on the top left
-  /* #illustrate {
-    position:absolute; left: 3000px;  top: 70px; 
-    justify-content: flex-end;
-    display: flex;
-    width: 250px;
-  }   */
-/* .flex-container {
-    float: left;
-    flex-direction: flex-end;
-    width: 150px;
-} */
-
-
-/* #pa {
+#Op_Container{
     display: flex;
     justify-content: space-evenly;
-} */
-/* #pro-h1 {
+    background-color: lightgrey;
+    height: 320px;
+}    
+
+#Description_2 {
+    height: 250px;
+    width: 497px;
+    padding: 25px;
+    background-color: aquamarine;
+    margin-top: 20px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+#Rengoku {
+    width: 497px;
+    height: 250px;
+    padding: 25px;
+    background-color: aquamarine;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#post_heading {
     display: flex;
-    justify-content: flex-start;
-} */
-/* #first-bu {
-    height: 40px;
-    width: 70px;
-    background-color: red;
-    border-radius: 60px;
-    margin-right: 26px;
-} */
-footer {
+    justify-content: space-between;
+    width: 1060;
+    align-items: center;
+}
+
+#heading_parent {
+    justify-content: space-evenly;
+}    
+
+#works{
     display: flex;
-   
+    justify-content: start;
+    margin: 40px;
+    border-radius: 6px;
+    background-color: white;
+    border: 3px solid rgba(224, 224, 224, 1)
+}
+#Dashboard{
+    width: 246px;
+    height: 140px;
+    radius: 6px;
     
+    
+}
 
 
+#bland{
+    border-radius: 16px;
+    background-color: midnightblue;
 }
-header {
+#st{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+#act{
+    display: flex;
+    justify-content: start;
+    margin: 40px;
+    border-radius: 6px;
+    background-color: white;
+    border: 3px solid rgba(224, 224, 224, 1)
+}
+#Illustration{
+        width: 246px;
+        height: 140px;
+        radius: 6px;
+          
+}
+
+#ton{
+    border-radius: 16px;
+    background-color: midnightblue;
+}
+
+#you{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+#ion{
+    display: flex;
+    justify-content: start;
+    margin: 40px;
+    border-radius: 6px;
+    background-color: white;
+border: 3px solid rgba(224, 224, 224, 1);
+}
+#Typography{
+    width: 246px;
+     height: 140px;
+     radius: 6px;
+     
+}
+
+#tto{
+    border-radius: 16px;
+        background-color: midnightblue;
+}
+        
     
+#em{
+    margin-left: 40px;
+    margin-bottom: 40px;
 }
+
+#Date {
+    display: flex;
+    margin: 10px;
+}
+
+#Date2 {
+    display: flex;
+    margin: 10px;
+}
+
+#Date3 {
+    display: flex;
+    margin: 10px;
+}
+
+#ton {
+    margin-right: 20px;
+}
+
+#bland {
+    margin-right: 20px; 
+}
+
+#tto {
+    margin-right: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
 section {
-    padding: 0 146px 0 146px;
+    padding: 146px; 
 }
-#hero_container {
-    margin-bottom: 41px;
-    
+
+h1 {
+    margin-bottom: 40px;
+}
+
+#p1 {
+    margin-bottom: 40px;
 }
