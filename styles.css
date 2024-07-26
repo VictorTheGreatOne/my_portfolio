@@ -97,6 +97,7 @@ button {
     width: 246px;
     height: 140px;
     radius: 6px;
+    margin-right: 18px;
     
     
 }
@@ -127,6 +128,7 @@ button {
         width: 246px;
         height: 140px;
         radius: 6px;
+        margin-right: 18px;
           
 }
 
@@ -155,6 +157,7 @@ border: 3px solid rgba(224, 224, 224, 1);
     width: 246px;
      height: 140px;
      radius: 6px;
+     margin-right: 18px;
      
 }
 
@@ -210,4 +213,21 @@ h1 {
 
 #p1 {
     margin-bottom: 40px;
+}
+#line {
+    border-bottom: 1px; solid: blue;
+    margin-top: 15px;
+    margin-bottom: 31px;
+    
+}
+
+footer {
+    gap: 35px; 
+    display: flex;
+
+}
+#fooT {
+    width:35px;
+    margin-left: 250px;
+
 }
