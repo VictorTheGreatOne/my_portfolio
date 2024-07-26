@@ -1,0 +1,153 @@
+ul {
+    display:flex;
+    justify-content:flex-end;
+    
+}
+li {
+    margin:20px;
+
+}
+ul {
+    list-style: none;
+}
+img {
+    width:50px;
+    display:flex;
+    
+
+    
+
+    
+    
+
+}
+
+    a:link {
+        text-decoration: none;
+    }
+ 
+.logo{
+    position: absolute; left: 60px; top: 10px;
+}
+h1 {
+display: flex;
+justify-content: center;
+margin-bottom: 40px;
+
+
+
+}
+p {
+   padding-right: 50px;
+   margin-bottom: 40px;
+}
+
+
+button {
+    background-color:red ;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+#profile {
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+    position:absolute; right: 60px;
+}
+#description {
+    margin-right: 115px;
+    justify-content: center;
+}
+#hero_container {
+ justify-content: space-around;   
+} 
+
+
+
+#design {
+   
+    margin-right: 20px;
+    padding: 25px;
+    border-radius: -20px;
+    background-color: aquamarine;
+    color: skyblue;
+}
+#pixel {
+    
+    background-color: aquamarine;
+    padding: 25px;
+    border-radius: -20px;
+}
+/* h3 {
+    padding-left: 60px;
+}
+.flex-container {
+    display: flex;
+    justify-content:  space-around;
+    
+} */
+
+#post-heading {
+    display: flex;
+    align-items: center;
+}
+#view {
+    position:absolute; right: 90px;  top: 260px; 
+}
+#recent {
+    position:absolute; left: 90px;   
+}
+
+a {
+    color: aqua;
+}
+
+image width should be 246px all the titles should have h2 elements
+image on left 
+featured works on the top left
+  /* #illustrate {
+    position:absolute; left: 3000px;  top: 70px; 
+    justify-content: flex-end;
+    display: flex;
+    width: 250px;
+  }   */
+/* .flex-container {
+    float: left;
+    flex-direction: flex-end;
+    width: 150px;
+} */
+
+
+/* #pa {
+    display: flex;
+    justify-content: space-evenly;
+} */
+/* #pro-h1 {
+    display: flex;
+    justify-content: flex-start;
+} */
+/* #first-bu {
+    height: 40px;
+    width: 70px;
+    background-color: red;
+    border-radius: 60px;
+    margin-right: 26px;
+} */
+footer {
+    display: flex;
+   
+    
+
+
+}
+header {
+    
+}
+section {
+    padding: 0 146px 0 146px;
+}
+#hero_container {
+    margin-bottom: 41px;
+    
+}
